@@ -68,7 +68,7 @@ app.get("/api/getweather", (req, res) => {
     .exec((err, data) => {
       if (err) {
         return res.status(400).json({
-          error: "NO product FOUND"
+          error: "NOT FOUND"
         });
       }
       res.json(data);
