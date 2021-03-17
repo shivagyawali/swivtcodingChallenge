@@ -10,14 +10,11 @@
 </div>
 
 
-## ScreenShots
-
-![demo](https://raw.githubusercontent.com/shivagyawali/webscrapping-and-discord-bot/main/discordApp.png)
 
 
 ## About
 
-This application collects the data from website and present that information to discord server through the bot.
+Project that provide current weather report of hongkong city. Firstly it fetches the data from external api and store that in mongoDB database. And that model will be fetch by the react. React will only shows the updated data from db.
 
 
 ## Installation
@@ -25,16 +22,6 @@ This application collects the data from website and present that information to 
 **Node.js 14.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-
-## Techology Used
-
-The technology used in our application is updated and robust. Which are listed below:
-
--   **[discord.js](https://discord.js.org)**
--   [dotenv](https://www.npmjs.com/package/dotenv)
--   [got](https://github.com/sindresorhus/got#readme)
--   [jsdom](https://github.com/jsdom/jsdom#readme)
--   [nodemon](https://nodemon.io/)
 
 
 
@@ -49,7 +36,9 @@ npm install
 ```
 Create new file .env and add the following:
 ```
-BOT_TOKEN=<Your Bot token from your discord account>
+DATABASE=mongodb://localhost:27017/swivtchallenge
+PORT=5000
+SECRET=myprivatesecret
 ```
 And bot to your server where you wanna have your bot.
 
@@ -63,17 +52,15 @@ Explain how to run the automated tests for this system
 ### Break down into end to end tests
 
 
-
 setup your environment variable and start 
 
 ```
-npm run devStart
+cd backend and npm start
+cd frontend and npm start
+
 ```
 This will start your application 
 
-## Code of Conduct
-
-please review and abide by the [Code of Conduct]).
 
 ## Security Vulnerabilities
 
