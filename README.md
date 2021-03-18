@@ -1,4 +1,4 @@
-# webscrapping-and-discord-bot
+# FullStack Weather App
 
 <div align="center">
   <br />
