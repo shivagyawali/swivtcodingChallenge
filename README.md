@@ -3,7 +3,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://github.com/shivagyawali/swivtcodingChallenge"><img src="https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg" width="546" alt="discord.js" /></a>
+    <a href="https://github.com/shivagyawali/swivtcodingChallenge"><img src="https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg" width="546" /></a>
   </p>
   <br />
   
